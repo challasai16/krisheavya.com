@@ -1,0 +1,141 @@
+.addCategory {
+
+    padding: 4rem;
+    padding-top: 15vh;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ .forminput{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+ }
+
+ .formlabel{
+    margin-right: 10px;
+    font-weight: bold;
+ }
+.formbutton{
+    padding: 10px;
+    background-color: #006F6F;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 20%;
+}
+.formbutton:hover{
+    background-color: #012101;
+}
+.formss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logout-form {
+     background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 13%;
+    margin: 10px auto 17px auto;
+    padding: 19px;
+    /* background-color: #f2f2f2; */
+    border-radius: 5px;
+    margin-left: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logout-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #006F6F;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.logout-form input[type="submit"]:hover {
+    background-color: #012101;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+/*  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+tr:hover {
+    background-color: #f9f9f9;
+}
+.button {
+    padding: 12px 24px;
+    background-color: #022602;
+    border: 1px solid #33553d;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button {
+    /*margin: 50px auto;*/
+}
+
+#date-submit {
+    background-color: var(--orange-color);
+    color: white;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    border: 0;
+    margin-left: 2rem;
+}
+
+#btnExport {
+    background-color: var(--orange-color);
+    color: white;
+    font-size: 1rem;
+    padding: 16px 1.5rem;
+    border: 0;
+    margin: 3rem 0;
+}
+
+.lead-access-manu {
+    z-index: -1 !important;
+    display: none !important;
+}
